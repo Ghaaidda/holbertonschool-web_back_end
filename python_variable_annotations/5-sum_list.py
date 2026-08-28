@@ -6,7 +6,9 @@ sum as float.
 """
 
 
-def sum_list(input_list: list[float]) -> float:
+type list_float = list[float]
+
+def sum_list(input_list: list_float) -> float:
     """
     Args: input_list (list of floats): list
 
