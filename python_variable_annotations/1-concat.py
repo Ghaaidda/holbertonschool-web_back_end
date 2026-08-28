@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """
 type-annotated function concat that takes a
-string a and a string b as arguments and 
+string a and a string b as arguments and
 returns their concatenation as a string.
 """
 
