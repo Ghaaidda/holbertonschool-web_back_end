@@ -8,11 +8,12 @@ integer and waits for a random delay.
 import asyncio, random
 
 
-async def wait_random(max_delay: int = 10) -> int:
+async def wait_random(max_delay: int = 10) -> float:
     """
     Args: max_delay (int): random number
 
-    Returns: int: the random number
+    Returns: delay (float): the random number
     """
-    await asyncio.sleep((random.uniform(0, float(max_delay))))
-    return max_delay
+    delay = random.uniform(0, float(max_delay))
+    await asyncio.sleep(delay)
+    return delay
