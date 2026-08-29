@@ -1,0 +1,20 @@
+#!/usr/bin/env python3
+"""
+type-annotated function to_kv that
+takes a string k and an int OR float v
+as arguments and returns a tuple.
+"""
+
+
+from typing import Tuple, Union
+
+
+def to_kv(k: str, v: int | float) -> Tuple[str, Union[int, float]]:
+    """
+    Args: k (str): string
+          v (int or float): number
+
+    Returns: tuple: tuple of k and v
+    """
+
+    return (k, v)
