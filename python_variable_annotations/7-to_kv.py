@@ -9,12 +9,12 @@ as arguments and returns a tuple.
 from typing import Tuple, Union
 
 
-def to_kv(k: str, v: Union[int, float]) -> Tuple[str, Union[int, float]]:
+def to_kv(k: str, v: Union[int, float]) -> Tuple[str, float]:
     """
     Args: k (str): string
           v (int or float): number
 
-    Returns: tuple: tuple of k and v
+    Returns: tuple: tuple of k as str and v as float
     """
 
     return (k, v)
