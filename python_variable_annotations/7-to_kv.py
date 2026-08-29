@@ -2,7 +2,7 @@
 """
 type-annotated function to_kv that
 takes a string k and an int OR float v
-as arguments and returns a tuple.
+and returns a tuple of k and square of v.
 """
 
 
@@ -14,7 +14,7 @@ def to_kv(k: str, v: Union[int, float]) -> Tuple[str, float]:
     Args: k (str): string
           v (int or float): number
 
-    Returns: tuple: tuple of k as str and v as float
+    Returns: tuple: tuple of k and suqare of v
     """
 
-    return (k, v)
+    return (k, v * v)
