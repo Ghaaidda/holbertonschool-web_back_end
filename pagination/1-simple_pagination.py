@@ -39,15 +39,16 @@ class Server:
         start, end = index_range(page, page_size)
         return dataset[start: end]
 
+
 def index_range(page: int, page_size: int) -> Tuple[int, int]:
-        """
-        Args:
-            page - the page number
-            page_size - the page size of items
+    """
+    Args:
+        page - the page number
+        page_size - the page size of items
 
-            returns:  range of indexes to return in a list
-        """
-        start: int = (page - 1) * page_size
-        end: int = page * page_size
+        returns:  range of indexes to return in a list
+    """
+    start: int = (page - 1) * page_size
+    end: int = page * page_size
 
-        return start, end
+    return start, end
