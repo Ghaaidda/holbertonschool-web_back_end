@@ -5,7 +5,7 @@ Deletion-resilient hypermedia pagination
 
 import csv
 import math
-from typing import List
+from typing import List, Dict
 
 
 class Server:
@@ -72,5 +72,3 @@ class Server:
             'page_size': len(result_dataset),
             'data': result_dataset
         }
-            
-            
