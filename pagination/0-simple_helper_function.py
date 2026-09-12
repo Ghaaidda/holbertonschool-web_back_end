@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-This module implements a pagination technique using 
+This module implements a pagination technique using
 the page and the page size parameters only.
 """
 
@@ -8,7 +8,7 @@ the page and the page size parameters only.
 from typing import Tuple
 
 
-def index_range(page: int, page_size: int) -> Tuple[int,int]:
+def index_range(page: int, page_size: int) -> Tuple[int, int]:
     """
     Args:
         page - the page number
