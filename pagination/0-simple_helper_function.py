@@ -5,7 +5,10 @@ the page and the page size parameters only.
 """
 
 
-def index_range(page, page_size):
+from typing import Tuple
+
+
+def index_range(page: int, page_size: int) -> Tuple[int,int]:
     """
     Args:
         page - the page number
@@ -13,6 +16,6 @@ def index_range(page, page_size):
 
         returns:  range of indexes to return in a list
     """
-    start = (page - 1) * page_size
-    end = page * page_size
+    start: int = (page - 1) * page_size
+    end: int = page * page_size
     return start, end
