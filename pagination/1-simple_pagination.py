@@ -6,7 +6,7 @@ from typing import List, Tuple
 class Server:
     """Server class to paginate a database of popular baby names.
     """
-    DATA_FILE = "baby_names_data.csv"
+    DATA_FILE = "Popular_Baby_Names.csv"
 
     def __init__(self):
         self.__dataset = None
