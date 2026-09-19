@@ -1,0 +1,1 @@
+This dircectory contains tasks of the ES6 classes project.
