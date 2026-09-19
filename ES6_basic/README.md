@@ -1,0 +1,1 @@
+This directory contains all tasks of the ES6 basics project.
