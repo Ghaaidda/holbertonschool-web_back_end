@@ -1,0 +1,1 @@
+This directory contains tasks of the ES6 data manipulation project.
